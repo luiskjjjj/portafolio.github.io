@@ -127,7 +127,7 @@ p {
     border-radius: 10px;
 }
 
-.galeria23 .description {
+.galeria23 .descripcion {
     position: absolute;
     bottom: 10px;
     left: 10px;
@@ -140,22 +140,12 @@ p {
 ul, ol {
     background-color: #f0f0f0; 
     border: 1px solid #ccc; 
-    padding: 15px;
-    margin: 20px 0;
     color: #333;
     text-align: center;
 }
 
 ul li, ol li {
-    margin-bottom: 10px;
-}
-
-ul {
-    list-style-type: square;
-}
-
-ol {
-    list-style-type: circle; 
+    margin-bottom: 5px;
 }
 
 
@@ -186,13 +176,13 @@ th {
     color: white;
 }
 
-.video-container {
+.video {
     display: flex;
     justify-content: center;
     margin: 20px 0;
 }
 
-.video-container video {
+.video video {
     width: 300px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -234,20 +224,20 @@ form button:hover {
 }
 
 
-.mapa-container {
+.mapa {
     position: relative;
     max-width: 300px;
     margin: 20px ;
 }
 
-.mapa-container img {
+.mapa img {
     width: 500px;
     border: 2px solid #ccc;
     border-radius: 10px;
 }
 
 
-.mapa-container img:hover {
+.mapa img:hover {
  
    border: 2px solid blueviolet;
 }
